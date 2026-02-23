@@ -1,46 +1,42 @@
 const Contact = () => {
   return (
-    <div id="contact" className="bg-orange-50 py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-16 bg-yellow-50">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-base text-orange-600 font-semibold tracking-wide uppercase">Contact Us</h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Visit Us Today
-          </p>
+          <p className="text-yellow-700 font-semibold uppercase tracking-wider">Contact & Location</p>
+          <h2 className="mt-2 text-3xl md:text-4xl font-extrabold text-gray-900">Visit Kevlo Pote today</h2>
         </div>
-        <div className="mt-10 lg:grid lg:grid-cols-2 lg:gap-8">
-          <div>
-            <h3 className="text-lg leading-6 font-medium text-gray-900">Location</h3>
-            <p className="mt-2 text-base text-gray-500">
-              <a href="https://maps.app.goo.gl/YXGeTm8sq1AK7JGu6" target="_blank" rel="noopener noreferrer" className="hover:text-orange-600 hover:underline">
-                Jk Chowk, Pushkardham Rd,<br />
-                near Akashwani Chowk, opp. Shyamal Infinity,<br />
-                Bhawani Nagar, Rajkot, Gujarat 360005
-              </a>
+
+        <div className="mt-10 grid lg:grid-cols-2 gap-8">
+          <div className="bg-white rounded-xl p-6 border border-yellow-200 shadow-sm">
+            <h3 className="text-xl font-bold text-gray-900">Address</h3>
+            <p className="mt-3 text-gray-700">
+              Jk Chowk, Pushkardham Rd, near Akashwani Chowk, opp. Shyamal Infinity, Bhawani Nagar, Rajkot, Gujarat 360005
             </p>
-            <div className="mt-4">
-              <a
-                href="https://maps.app.goo.gl/YXGeTm8sq1AK7JGu6"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-orange-700"
-              >
-                Get Directions
-              </a>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <a href="https://maps.app.goo.gl/YXGeTm8sq1AK7JGu6" target="_blank" rel="noreferrer" className="rounded-md bg-black px-4 py-2 text-white font-semibold">Open in Google Maps</a>
+              <a href="tel:09510931838" className="rounded-md border border-black px-4 py-2 font-semibold text-black">Call Now</a>
             </div>
           </div>
-          <div className="mt-8 lg:mt-0">
-            <h3 className="text-lg leading-6 font-medium text-gray-900">Contact Info</h3>
-            <div className="mt-2 text-base text-gray-500">
-              <p>Phone: <a href="tel:09510931838" className="text-orange-600 hover:underline">095109 31838</a></p>
-              <p className="mt-2">
-                Instagram: <a href="https://www.instagram.com/kevlopotemaggiandsnacks?igsh=a2E1ZTI2MWptbGR3" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:underline">@kevlopotemaggiandsnacks</a>
-              </p>
-            </div>
+
+          <div className="bg-white rounded-xl p-6 border border-yellow-200 shadow-sm">
+            <h3 className="text-xl font-bold text-gray-900">Connect</h3>
+            <p className="mt-3 text-gray-700"><span className="font-semibold">Phone:</span> 095109 31838</p>
+            <p className="mt-2 text-gray-700 break-all"><span className="font-semibold">Instagram:</span> @kevlopotemaggiandsnacks</p>
+            <a href="https://www.instagram.com/kevlopotemaggiandsnacks?igsh=a2E1ZTI2MWptbGR3" target="_blank" rel="noreferrer" className="inline-block mt-5 rounded-md bg-yellow-400 px-4 py-2 font-bold text-black hover:bg-yellow-500">
+              Follow on Instagram
+            </a>
+
+            <iframe
+              title="Kevlo Pote map"
+              className="mt-6 w-full h-56 rounded-lg"
+              loading="lazy"
+              src="https://maps.google.com/maps?q=Jk%20Chowk%2C%20Pushkardham%20Rd%2C%20Rajkot&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            />
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

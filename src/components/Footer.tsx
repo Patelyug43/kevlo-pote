@@ -1,22 +1,10 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-800">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
-          <div className="flex space-x-6 md:order-2">
-            <a href="https://www.instagram.com/kevlopotemaggiandsnacks?igsh=a2E1ZTI2MWptbGR3" className="text-gray-400 hover:text-gray-300">
-              <span className="sr-only">Instagram</span>
-              <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772 4.902 4.902 0 011.772-1.153c.636-.247 1.363-.416 2.427-.465 1.067-.047 1.407-.06 4.123-.06h.08v-.001zm0-2c-2.709 0-3.049.011-4.113.06-1.065.048-1.79.215-2.428.463a6.905 6.905 0 00-2.503 1.628 6.905 6.905 0 00-1.628 2.503c-.248.638-.415 1.363-.463 2.428-.049 1.064-.06 1.404-.06 4.113s.011 3.049.06 4.113c.048 1.065.215 1.79.463 2.428a6.905 6.905 0 001.628 2.503 6.905 6.905 0 002.503 1.628c.638.248 1.363.415 2.428.463 1.064.049 1.404.06 4.113.06s3.049-.011 4.113-.06c1.065-.048 1.79-.215 2.428-.463a6.905 6.905 0 002.503-1.628 6.905 6.905 0 001.628-2.503c.248-.638.415-1.363.463-2.428.049-1.064.06-1.404.06-4.113s-.011-3.049-.06-4.113c-.048-1.065-.215-1.79-.463-2.428a6.905 6.905 0 00-1.628-2.503 6.905 6.905 0 00-2.503-1.628c-.638-.248-1.363-.415-2.428-.463-1.064-.049-1.404-.06-4.113-.06z" clipRule="evenodd" />
-                <path fillRule="evenodd" d="M12.315 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12.315 16.162a4.162 4.162 0 110-8.324 4.162 4.162 0 010 8.324z" clipRule="evenodd" />
-                <path fillRule="evenodd" d="M18.722 6.404a1.44 1.44 0 100-2.88 1.44 1.44 0 000 2.88z" clipRule="evenodd" />
-              </svg>
-            </a>
-          </div>
-          <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            &copy; 2024 Kevlo Pote. All rights reserved.
-          </p>
-        </div>
+    <footer className="bg-black text-white py-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <p className="font-semibold">Kevlo Pote Maggi & Snacks · Rajkot, Gujarat</p>
+        <p className="mt-2 text-sm text-gray-300">Phone: 095109 31838 · Instagram: @kevlopotemaggiandsnacks</p>
+        <p className="mt-2 text-sm text-gray-400">© 2026 Kevlo Pote. All rights reserved.</p>
       </div>
     </footer>
   );
